@@ -1,7 +1,6 @@
 "---------------------------------------
 " vimの初期設定
 "---------------------------------------
-set nocompatible
 set shortmess+=I
 set number
 set relativenumber
@@ -97,6 +96,7 @@ inoremap ` ``<Left>
 autocmd BufNewFile,BufRead *.py nnoremap <F5> :!python3 %
 autocmd BufNewFile *.py 0r $HOME/vimrc/templates/template.py
 autocmd BufNewFile *.cpp 0r $HOME/vimrc/templates/template.cpp
+autocmd BufNewFile *.sh 0r $HOME/vimrc/templates/template.sh
 
 autocmd BufWritePost * :call AddExecmod()
 function! AddExecmod()

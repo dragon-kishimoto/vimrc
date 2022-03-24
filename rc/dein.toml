@@ -14,41 +14,47 @@ hook_post_update = '''
 [[plugins]]
 repo = 'Shougo/unite.vim'
 
+# カラースキーム
 [[plugins]]
 repo = 'tomasr/molokai'
 
-[[plugins]]
-repo = 'noahfrederick/vim-hemisu'
-
+# ステータスライン
 [[plugins]]
 repo = 'itchyny/lightline.vim'
 
-[[plugins]]
-repo = 'nathanaelkane/vim-indent-guides'
-
-[[plugins]]
-repo = 'h1mesuke/unite-outline'
-
-[[plugins]]
-repo = 'scrooloose/syntastic'
-
-[[plugins]]
-repo = 'scrooloose/nerdcommenter'
-
-[[plugins]]
-repo = 'davidhalter/jedi-vim'
-
-[[plugins]]
-repo = 'vim-jp/vimdoc-ja'
-
-[[plugins]]
-repo = 'vim-scripts/taglist.vim'
-
+# ステータスライン
 [[plugins]]
 repo = 'Lokaltog/vim-powerline'
 
+# インデント可視化
+[[plugins]]
+repo = 'nathanaelkane/vim-indent-guides'
+
+# インデント可視化
+[[plugins]]
+repo = 'Yggdroot/indentLine'
+
+# アウトライン
+[[plugins]]
+repo = 'h1mesuke/unite-outline'
+
+# ファイル(言語)の構文チェック
+[[plugins]]
+repo = 'scrooloose/syntastic'
+
+# コメントサポート
+[[plugins]]
+repo = 'scrooloose/nerdcommenter'
+
+# Python入力補完
+[[plugins]]
+repo = 'davidhalter/jedi-vim'
+
+# 関数のリスト表示
+[[plugins]]
+repo = 'vim-scripts/taglist.vim'
+
+# 管理者権限の必要なファイルを編集
 [[plugins]]
 repo = 'lambdalisue/suda.vim'
 
-[[plugins]]
-repo = 'Yggdroot/indentLine'
